@@ -6,7 +6,7 @@ const session = require("express-session");
 const flash = require("connect-flash");
 
 const app = express();
-const PORT = process.env.PORT || 10000;
+const PORT = 10000;
 
 const pool = new Pool({
   user: "postgres",
