@@ -1,9 +1,9 @@
-const express = require("express");
-const path = require("path");
-const { Pool } = require("pg");
-const bcrypt = require("bcryptjs");
-const session = require("express-session");
-const flash = require("connect-flash");
+import express from "express";
+import path from "path";
+import { Pool } from "pg";
+import bcrypt from "bcryptjs";
+import session from "express-session";
+import flash from "connect-flash";
 
 const app = express();
 const PORT = 10000;
